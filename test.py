@@ -17,6 +17,6 @@ class Bangles:
 			factorial *= color
 		return(factorial*2)
 
-numberOfColors = 2
+numberOfColors = 4
 bangleObject = Bangles(numberOfColors)
 print(bangleObject.arrange())
