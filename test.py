@@ -14,7 +14,7 @@ class Bangles:
 	def arrange(self):
 		factorial = 1
 		for color in range(1, self.numberOfColors+1):
-			factorial *= color
+			factorial *= color+1
 		return(factorial*2)
 
 numberOfColors = 6
